@@ -1,0 +1,140 @@
+
+a{
+    text-decoration: none;
+}
+
+.mainportfoliopic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.pagelinks{
+    text-align: right;
+}
+
+.about{
+    text-align: center;
+}
+
+.forleftalign{
+    text-align: left;
+    color: #25a692;
+}
+
+/* <!-- Thusrdays styling  projects page -- > */
+.nav {
+    text-align: right;
+    font-size: 20px;
+}
+
+div.polaroid {
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+  
+
+
+.iconDetails {
+    margin-left:2%;
+   float:left; 
+   height:50%;
+   width:50%; 
+   } 
+   
+   .container2 {
+       width:1270px;
+       height:auto;
+       padding:1%;
+       float:left;
+   }
+   h4{margin:0}
+   .left {float:left;width:40%;}
+   .right {float:left;margin:0 0 0 5px;width:215px;}
+
+
+   /* Contact Page styling  */
+.contact-page-body{
+    background-color:rgba(240, 248, 255, 0.63);;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #eb3a9b;
+    color: white;
+  }
+
+  .fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .contact-head,
+  .contact-para,
+  .buttons{
+      text-align: center;
+  }
+
+  .contact-head{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    /* color: rgba(240, 248, 255, 0.63); */
+    color:#25a692;
+  }
+
+  .contact-para{
+    color: rgba(15, 25, 32, 0.63);
+    font-size:large;
+  }
+
+  .logos-head{
+    text-align: center;
+    color:#25a692;;
+  }
+
+
+   /* Skills styling  */
+
+   /* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
