@@ -3,26 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KP's Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <nav class="navigation container">
-        <div>
-        <span ><a  class ="forleftalign" href="#about_section">About Me</a></span>
-        <span class="pagelinks">
-            <span><a  href="/projects.html" style="color: #25a692;">Projects</a></span>
-            <span><a  href="/blogs.html" style="color: #25a692;">Blogs</a></span>
-            <span><a  href="/contact.html" style="color: #25a692;">Contact</a></span>
-        </span>
-        </div>  
-    </nav>
-
-    <img class= "mainportfoliopic" src="images/female_developer.jpg" height = 700 width= 1200 >
+    <header>
+        <div class="main">
+            <ul>
+                <li ><a href="#">Home</a></li>
+                <li><a href="#about_section">About Me</a></li>
+                <li><a href="#project-section">Projects</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+        </div>
+        <div class="title">
+            <h2>Khushboo Priya</h2>
+            
+        </div>
+        <div class="button">
+            <a href="https://drive.google.com/file/d/1XKSvKtch9CqECGwZeKCBozhLfwa3hKoh/view?usp=sharing" class="btn">RESUME</a>
+            <a href="https://github.com/khushboopriya" class="btn">GITHUB</a>
+        </div>
+    </header>
 
     <hr>
     <div id= "about_section">
-        <h2 style="text-align: center;">About Me</h2>
+        <br>
+        <h2 class="aboutme-head"style="text-align: center;">About Me</h2>
         <p class="about">I am currently working as a Senior Analyst in Capgemini. 
             <br> I also have 6 months experience, working as RnD Machine Learning Intern at Utopia Labs and 2 months as Data Analyst at Everlytics.
             <br> I have completed my graduation from IIIT Naya Raipur with majors in Computer Science and Engineering.
@@ -36,31 +44,86 @@
     <br>
     <hr>
 
-    <h2 style="text-align: center;">Skills</h2>
+    <!-- PROJECT SECTION -->
 
-    <div class = "skills-images">
-        <div class="row">
-            <div class="column">
-              <img src="images/django.jpg" alt="Snow" style="width:100%">
+    <main id="project-section">
+        <br>
+        <br>
+        <h2 class="heading" style="text-align: center;">Projects</h2>
+        <br>
+        <br>
+
+        
+            <div class="responsive">
+                <div class="gallery">
+                <a target="_blank" href="https://github.com/khushboopriya/QuizApplication_using_Javascript">
+                    <img src="images/quiz.jpg" alt="JavaScript CLI Quiz App" width="600" height="400">
+                </a>
+                <div class="desc">JavaScript CLI Quiz App</div>
+                </div>
             </div>
-            <div class="column">
-              <img src="images/python.jpg" alt="Forest" style="width:100%">
+            
+            
+            <div class="responsive">
+                <div class="gallery">
+                <a target="_blank" href="https://github.com/khushboopriya/titanic_dataset_analysis">
+                    <img src="images/titanic.png" alt="Titanic Dataset Analysis" width="600" height="400">
+                </a>
+                <div class="desc">Titanic Dataset Analysis</div>
+                </div>
             </div>
-            <div class="column">
-              <img src="images/webd.jpg" alt="Mountains" style="width:100%">
+            
+            <div class="responsive">
+                <div class="gallery">
+                <a target="_blank" href="https://github.com/khushboopriya/Django_WeatherApp">
+                    <img src="images/weathersquare.jpg" alt="Django Weather Detection App" width="600" height="400">
+                </a>
+                <div class="desc">Django Weather Detection App</div>
+                </div>
             </div>
-            <div class="column">
-                <img src="images/tensorflow.png" alt="Mountains" style="width:100%">
+            
+            <div class="responsive">
+                <div class="gallery">
+                <a target="_blank" href="https://github.com/khushboopriya/Image-Classifier-FGVC-Aircraft-Dataset">
+                    <img src="images/aircraft.jpg" alt="Aircraft Image Classification " width="600" height="400">
+                </a>
+                <div class="desc">Aircraft Image Classificatier</div>
+                </div>
             </div>
+            
+            <div class="clearfix"></div>
+
+
+    </main>
+
+
+    <!-- CONTACT PAGE  -->
+
+    <br>
+    <br>
+    <section class="contact-page-body" id="contact-section">
+    
+        <h2 class="contact-head"> Contact </h2>
+        <br>
+        <br>
+        <div class ="contact-content">
+            <p class ="contact-para">
+                I'm currently accepting new projects and would love to hear about yours.<br> Please take a few minutes to 
+                tell me about it. <br>
+                After you introduce yourself and your project, I'll get it touch with you to schedule a time to chat.
+            </p>
         </div>
-    </div>
-
-
-
-
-
-    
-    
+        <h3 class="logos-head"> Connect with me at </h3>
+        <div class = "buttons">
+            <a href="https://twitter.com/Khushboopriya7" class="fa fa-twitter"></a>
+            <a href="https://www.linkedin.com/in/khushboo-priya-530293143/" class="fa fa-linkedin"></a>
+            <a href="https://www.instagram.com/khush_b_hoon/?hl=en" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-skype"></a>
+        </div>
+    </section>
+    <br>
+    <br>
 
 </body>
 </html>
