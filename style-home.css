@@ -5,6 +5,9 @@
 
 }
 
+html{
+  scroll-behavior: smooth;
+}
 header{
     background-image:url(wallpaper.jpg);
     height: 100vh;
@@ -119,6 +122,10 @@ color: #fff;
 }
 /* PROJECT STYLING */
 
+#project-section{
+  margin: 5%;
+}
+
 div.gallery {
     border: 1px solid #ccc;
   }
@@ -129,7 +136,8 @@ div.gallery {
   
   div.gallery img {
     width: 100%;
-    height: auto;
+    height: 160px;
+
   }
   
   div.desc {

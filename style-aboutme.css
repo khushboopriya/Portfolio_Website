@@ -1,0 +1,25 @@
+.about{
+    text-align: center;
+}
+.aboutme-head{
+    text-transform: uppercase;
+      letter-spacing: 3px;
+      /* color: rgba(240, 248, 255, 0.63); */
+      color:#25a692;
+}
+
+.flexmain{
+    display: flex;
+    margin:10%;
+    justify-content: space-evenly;
+}
+
+.about{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.pic-portfolio{
+    border-radius: 50%;
+    max-width: 75%;
+}
